@@ -26,6 +26,9 @@ class Triangle
       else
         :scalene
       end
+    else
+      raise Triangle::TriangleError
+    end
   end
   
   
